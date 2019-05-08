@@ -15,8 +15,8 @@ def data():
 
 def main(urls):
     param = {
-		"site": "www.lingjuw.cn",
-        "token": "你的百度token值"
+		"site": "www.lingjuw.cn", # 可以换成你的网站
+		"token": "你的百度token值"
     }
     header = {
         "User-Agent": "curl/7.12.1",
